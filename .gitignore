@@ -1,0 +1,10 @@
+# Only track the kvia-chatbot project
+/*
+!.gitignore
+!kvia-chatbot/
+
+# Ignore node_modules inside the project
+kvia-chatbot/node_modules/
+
+# Environment files
+.env*
