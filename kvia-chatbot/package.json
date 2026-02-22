@@ -1,0 +1,16 @@
+{
+  "name": "kvia-chatbot",
+  "version": "1.0.0",
+  "description": "Lead generation chatbot for kviagent.com",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "@aws-sdk/client-bedrock-agent-runtime": "^3.750.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
