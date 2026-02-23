@@ -10,7 +10,7 @@ const bedrockClient = new BedrockAgentRuntimeClient({
   region: process.env.AWS_REGION || "us-east-1",
 });
 
-const KNOWLEDGE_BASE_ID = "5AHITVFN4U";
+const KNOWLEDGE_BASE_ID = "UZGG0LZTTJ";
 
 const SYSTEM_PROMPT = `You are Kvia, a friendly and professional lead generation assistant for kviagent.com. Your goal is to have a natural conversation that gently collects the following information from visitors:
 
